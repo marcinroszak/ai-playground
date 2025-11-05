@@ -1,2 +1,20 @@
-.vscode/settings.json
+# Byte-compiled / optimized / DLL files
+__pycache__/*
+
+# VS Code workspace settings
+.vscode/*
+
+# Python virtual environment
+.venv/*
+
+# Data and datasets
+data/*
+
+# Local activation scripts (not source code)
 activate.ps1
+
+# Model weights (PyTorch)
+*.pth
+
+# Generated images (Plotted figures, results, etc.)
+*.png
